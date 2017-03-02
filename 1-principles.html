@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Web Accessibility Principles</title>
+	<meta charset="utf-8">
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans|Oswald" rel="stylesheet">
+
+	<style>
+		*{
+			box-sizing: border-box;
+			font-family: 'Fira Sans', sans-serif;
+		}
+
+		body{
+			margin: 0;
+		}
+
+		h1{
+			margin: 0;
+			padding: 20px;
+		}
+
+		h2{
+			color: #2c3e50;
+			font-family: 'Oswald', sans-serif;
+			font-size: 2em;
+			margin: 0;
+		}
+
+		article{
+			padding: 20px;
+		}
+
+		p{
+			font-size: 1.2em;
+		}
+
+		.grey-background{
+			background-color: #ecf0f1;
+		}
+
+		@media screen and (min-width: 700px){
+			#container{
+				margin: auto;
+				width: 80%;
+			}
+		}
+
+		@media screen and (min-width: 1024px){
+			#container{
+				margin: auto;
+				width: 50%;
+			}
+		}
+	</style>
+</head>
+<body>
+
+	<div id="container">
+		<h1>Here are some of the fundamental principles of web accessibility when coding a website</h1>
+
+		<article class="grey-background">
+			<h2>Provide Alternatives</h2>
+			<p>Put yourself in someone else’s shoes and image what sort of alternatives would be good to have if you had some certain kind of disability. For example, don’t ever include &lt;img&gt; without the "alt" attribute because this very attribute is what will be read by the likes of ChromeVox etc.</p>
+		</article>
+
+		<article>
+			<h2>Be Welcoming</h2>
+			<p>Don’t discriminate against anyone. Try to include everyone and make your websites as warm and welcoming as possible.</p>
+		</article>
+		
+		<article class="grey-background">
+			<h2>Be To-the-point</h2>
+			<p>Don’t dilly-dally your way through the website and confuse your users. Be concise where you can be and present information in a clear and obvious manner.</p>
+		</article>
+
+		<article>
+			<h2>Be Informative</h2>
+			<p>Always tell the user where they are on the page. Inform them about their navigation and provide them with a way of being able to find what they’re looking for on your website.</p>
+		</article>
+
+		<article class="grey-background">
+			<h2>Be Consistent</h2>
+			<p>Stick to certain rules and guidelines. This applies to the way you create your website as much as it does to the way you make it accessible.</p>
+		</article>
+	</div>
+
+
+</body>
+</html>
