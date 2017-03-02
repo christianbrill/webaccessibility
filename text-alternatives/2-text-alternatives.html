@@ -7,6 +7,9 @@
 	<!-- Stylesheet -->
 	<link rel="stylesheet" type="text/css" href="main.css">
 
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Fira+Sans|Oswald" rel="stylesheet">
 </head>
@@ -15,6 +18,29 @@
 	<header>
 		<h1>Text Alternatives</h1>
 	</header>
+
+	<main>
+		<div id="container">
+			<p>When adding non-text content on your website (images, audio, video, etc.), it is important to always provide a text alternative, so that it can be read by screen readers (SR) such as ChromeVox.</p>
+
+			<h2>Examples:</h2>
+
+			<div id="ul-container">
+				<ul>
+					<li><i class="fa fa-share" aria-hidden="true"></i> The <span class="highlighted-text">&lt;img&gt;</span> element should always be accompanied by an "alt" attribute. The alternative text should be concise and to the point:</li>
+					<li class="li-example">&lt;img src="dog.png" <span class="highlighted-text">alt="Image of a Golden Retriever"&gt;</span></li>
+
+					<li><i class="fa fa-share" aria-hidden="true"></i> <span class="highlighted-text">&lt;input&gt;</span> fields should always have a "name" attribute, which corresponds to the input purpose:</li>
+					<li class="li-example">&lt;input type="text" <span class="highlighted-text">name="firstname"</span>&gt;</li>
+
+					<li><i class="fa fa-share" aria-hidden="true"></i> <span class="highlighted-text">CAPTCHAs</span>, themselves being non-text content, must be explained properly and alternatives for different senses must be provided.</li>
+
+					<li><i class="fa fa-share" aria-hidden="true"></i> Non-text content that is purely decorative must be used only for visual formatting or made to be ignored by <span class="highlighted-text">assistive technology</span>.</li>
+				</ul>
+			</div>
+			
+		</div>
+	</main>
 
 </body>
 </html>
